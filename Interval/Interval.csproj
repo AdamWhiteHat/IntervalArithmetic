@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net7.0</TargetFrameworks>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Title>ExtendedArithmetic.Interval</Title>
+		<Product>ExtendedArithmetic.Interval</Product>
+		<AssemblyName>ExtendedArithmetic.Interval</AssemblyName>
+		<AssemblyTitle>ExtendedArithmetic.Interval</AssemblyTitle>
+		<PackageId>ExtendedArithmetic.Interval</PackageId>
+		<Description>A univariate, sparse, symbolic, BigInteger polynomial arithmetic class.</Description>
+		<Authors>Adam White</Authors>
+		<Company>Adam White</Company>
+		<Copyright>Made by Adam White</Copyright>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageTags>math mathematics interval interval-arithmetic range arithmetic numerics numbers csharp</PackageTags>
+		<PackageProjectUrl>https://www.nuget.org/packages/ExtendedArithmetic.Interval/</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/AdamWhiteHat/IntervalArithmetic</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+
+		<Version>$([System.DateTime]::Now.ToString("yyyy."$([System.DateTime]::Now.DayOfYear)".HHmm"))</Version>
+		<AssemblyVersion>$([System.DateTime]::Now.ToString("yyyy."$([System.DateTime]::Now.DayOfYear)".HHmm"))</AssemblyVersion>
+		<FileVersion>$([System.DateTime]::Now.ToString("yyyy."$([System.DateTime]::Now.DayOfYear)".HHmm"))</FileVersion>
+	</PropertyGroup>
+
+</Project>
